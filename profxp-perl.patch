@@ -1,0 +1,32 @@
+diff -Nur profxp.org/Makefile.PL profxp/Makefile.PL
+--- profxp.org/Makefile.PL	1970-01-01 00:00:00.000000000 +0000
++++ profxp/Makefile.PL	2003-07-20 18:37:41.000000000 +0000
+@@ -0,0 +1,19 @@
++# This -*- perl -*- script makes the Makefile
++
++#--- Distribution section ---
++
++$DISTNAME = 'profxp';
++$VERSION  = "3.0";
++
++#--- Write the Makefile
++
++BEGIN { require 5.004 }
++
++use ExtUtils::MakeMaker;
++
++WriteMakefile(
++	VERSION   => $VERSION,
++	NAME      => $DISTNAME, EXE_FILES => ['profxpv3.pl']
++);
++
++
+diff -Nur profxp.org/profxpv3.pl profxp/profxpv3.pl
+--- profxp.org/profxpv3.pl	2002-02-15 13:17:22.000000000 +0000
++++ profxp/profxpv3.pl	2003-07-20 18:37:53.000000000 +0000
+@@ -1,4 +1,4 @@
+-#!/home/tom/ActivePerl-5.6/bin/perl
++#!/usr/bin/perl
+ 
+ use profxp::command;
+ use profxp::screen;
