@@ -31,7 +31,7 @@ podobaj±cy siê zarówno nowicjuszom, jak i hardcore'owym hackerom.
 %patch0 -p1
 
 %{__perl} Makefile.PL \
-        INSTALLDIRS=vendor
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
