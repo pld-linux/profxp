@@ -4,7 +4,7 @@ Name:		profxp
 Version:	3.0
 Release:	0.1
 License:	distributable
-Group:		Development/Languages/Perl
+Group:		Applications/Networking
 Source0:	http://duncanthrax.net/profxp/%{name}-v3-pre2-src.tar.gz
 # Source0-md5:	66bc8de435ee02378eecdf129d7695dd
 Patch0:		%{name}-perl.patch
