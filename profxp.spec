@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	proFXP - a command line FXP client
-Summary(pl):	proFXP - klient FXP dzia³aj±cy z linii poleceñ
+Summary(pl.UTF-8):   proFXP - klient FXP dziaÅ‚ajÄ…cy z linii poleceÅ„
 Name:		profxp
 Version:	3.0
 Release:	0.1
@@ -19,12 +19,12 @@ active and passive mode, different listing modes and a very powerful
 "down-to-the protocol metal" 2-char-command command line interface,
 pleasing newbies and hardcore hackers alike.
 
-%description -l pl
+%description -l pl.UTF-8
 proFXP jest klientem FXP (server-to-server FTP) napisanym w Perlu.
-Obs³uguje dope³nianie Tabem, zarz±dzanie serwerami, czas
-nieaktywno¶ci, SOCKS, tryb aktywny i pasywny, ró¿ne rodzaje listingów;
-ma tak¿e bardzo potê¿ny interfejs liniowy z 2-znakowymi poleceniami,
-podobaj±cy siê zarówno nowicjuszom, jak i hardcore'owym hackerom.
+ObsÅ‚uguje dopeÅ‚nianie Tabem, zarzÄ…dzanie serwerami, czas
+nieaktywnoÅ›ci, SOCKS, tryb aktywny i pasywny, rÃ³Å¼ne rodzaje listingÃ³w;
+ma takÅ¼e bardzo potÄ™Å¼ny interfejs liniowy z 2-znakowymi poleceniami,
+podobajÄ…cy siÄ™ zarÃ³wno nowicjuszom, jak i hardcore'owym hackerom.
 
 %prep
 %setup -q -n %{name}
