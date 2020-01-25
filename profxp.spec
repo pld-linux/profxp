@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	proFXP - a command line FXP client
 Summary(pl.UTF-8):	proFXP - klient FXP działający z linii poleceń
 Name:		profxp
